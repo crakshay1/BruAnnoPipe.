@@ -1,6 +1,6 @@
-# BruAnno_Pipe
+# BruAnnoPipe
 
-**BruAnno_Pipe** is an automated bioinformatics pipeline designed for the comprehensive annotation of genomic sequences. It integrates local command-line tools with web-based prediction and validation services to identify transposable elements, predict gene structures, and validate protein sequences.
+**BruAnnoPipe** is an automated bioinformatics pipeline designed for the comprehensive annotation of genomic sequences. It integrates local command-line tools with web-based prediction and validation services to identify transposable elements, predict gene structures, and validate protein sequences.
 
 ---
 

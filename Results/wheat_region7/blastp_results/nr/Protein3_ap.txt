@@ -1,0 +1,67 @@
+RID: P70A3NKG016	
+Job Title:Protein3				
+Program: BLASTP 
+Database: ClusteredNR clustered nr
+Query #1: Protein3 Query ID: lcl|Query_9601190 Length: 88
+
+Clusters producing significant alignments:
+                                                                  #          #          Scientific      Cluster                    Max    Total Query   E   Per.   Acc.                        
+Cluster Rep.                                                      Mem.       Taxa       Name            Ancestor        Taxid      Score  Score cover Value Ident  Len        Accession        
+hypothetical protein VPH35_124735 [Triticum aestivum]             1          1          Triticum aes... bread wheat     4565       62.8   62.8  65%   8e-10 52.63  158        XBI40084.1       
+hypothetical protein VPH35_070349 [Triticum aestivum]             1          1          Triticum aes... bread wheat     4565       50.1   50.1  61%   3e-05 59.26  122        XBI77192.1       
+hypothetical protein D1007_26523 [Hordeum vulgare]                1          1          Hordeum vulgare barley          4513       48.1   48.1  60%   3e-04 45.28  193        KAE8798229.1     
+
+
+Alignments:
+
+>hypothetical protein VPH35_124735 [Triticum aestivum]
+Sequence ID: XBI40084.1 Length: 158
+Range 1: 99 to 155
+
+Score:62.8 bits(151), Expect:8e-10, 
+Method:Compositional matrix adjust., 
+Identities:30/57(53%), Positives:37/57(64%), Gaps:0/57(0%)
+
+Query  25   MLEAKEAAAARDAAAAAHLPALREEYQVASTLSDTLIYHTLHGNEPPPCNGDSDDNN  81
+               AKEA AA D  AAA +  L EE+Q+ + L  TLIY+TLHGNEPPP +   D N+
+Sbjct  99   WFHAKEATAAEDVVAAARVSTLLEEFQLHAILCSTLIYNTLHGNEPPPSDSGFDKNS  155
+
+
+
+
+>hypothetical protein VPH35_070349 [Triticum aestivum]
+Sequence ID: XBI77192.1 Length: 122
+Range 1: 64 to 116
+
+Score:50.1 bits(118), Expect:3e-05, 
+Method:Compositional matrix adjust., 
+Identities:32/54(59%), Positives:37/54(68%), Gaps:1/54(1%)
+
+Query  25   MLEAKEAAAARDAAAAAHLPALREEYQVASTLSDTLIYHTLHGNEPPPCNGDSD  78
+               AKEA  A D AA A +PAL EE+Q+ +TL   LIY TLHGNEPPP + DSD
+Sbjct  64   WFHAKEAVVAGDVAAVARVPALLEEFQLQATLRSMLIYKTLHGNEPPPSH-DSD  116
+
+
+
+
+>hypothetical protein D1007_26523 [Hordeum vulgare]
+Sequence ID: KAE8798229.1 Length: 193
+Range 1: 89 to 141
+
+Score:48.1 bits(113), Expect:3e-04, 
+Method:Compositional matrix adjust., 
+Identities:24/53(45%), Positives:33/53(62%), Gaps:0/53(0%)
+
+Query  25   MLEAKEAAAARDAAAAAHLPALREEYQVASTLSDTLIYHTLHGNEPPPCNGDS  77
+               AKEAA   D  AAA + ALREE  + +TL  TLIYH ++  +P P +G++
+Sbjct  89   WFNAKEAATTGDVVAAARVLALREEVDLQATLCSTLIYHAVYDAKPLPRDGNT  141
+
+
+
+
+
+
+
+		
+
+

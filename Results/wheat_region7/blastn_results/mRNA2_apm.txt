@@ -1,0 +1,569 @@
+RID: P705DPYV014	
+Job Title: mRNA2 				
+Program: BLASTN 
+Database: tsa (24 databases) 
+Query #1: mRNA2 Query ID: lcl|Query_7277333 Length: 594
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+TSA: Triticum aestivum comp72071_c0_seq1 transcribed RNA sequence                                 0          760    760   71%   0.0    99.05  990        GEUX01052893.1   
+Triticum aestivum GG_127776_c0_g1_i2                                                              0          747    1025  100%  0.0    98.14  1651       GKWO01458962.1   
+Triticum aestivum GG_127776_c0_g1_i1                                                              0          747    1025  100%  0.0    98.58  1571       GKWO01458961.1   
+TSA: Triticum aestivum TA_RNA_224655 transcribed RNA sequence                                     0          747    747   72%   0.0    98.14  785        GAJL01218132.1   
+Triticum aestivum cultivar Avocet R contig_122122                                                 0          532    604   51%   3e-148 98.36  793        GJAR01121435.1   
+Triticum aestivum GG_102715_c0_g1_i1                                                              0          448    448   41%   1e-122 100.00 353        GKWO01368652.1   
+TSA: Triticum aestivum, transcript: NODE_128898_length_436                                        0          322    322   30%   8e-85  98.89  436        HCED01128898.1   
+TSA: Triticum aestivum, transcript: NODE_128898_length_436                                        0          322    322   30%   8e-85  98.89  436        HCEC01128898.1   
+Triticum aestivum GG_102699_c0_g1_i1                                                              0          311    593   53%   2e-81  99.42  1145       GKWO01368602.1   
+TSA: Triticum aestivum, transcript: NODE_188185_length_249                                        0          278    278   29%   2e-71  95.93  249        HCED01188185.1   
+TSA: Triticum aestivum, transcript: NODE_188185_length_249                                        0          278    278   29%   2e-71  95.93  249        HCEC01188185.1   
+TSA: Triticum aestivum TA_RNA_246800 transcribed RNA sequence                                     0          230    230   24%   5e-57  95.77  241        GAJL01048915.1   
+Triticum aestivum gene.335432.0.0                                                                 0          84.2   84.2  10%   4e-13  91.80  2973       GILY01050747.1   
+TSA: Triticum aestivum tid48463_c0_seq2 transcribed RNA sequence                                  0          84.2   84.2  10%   4e-13  91.80  2103       GEWU01027409.1   
+TSA: Triticum aestivum tid48463_c0_seq1 transcribed RNA sequence                                  0          84.2   84.2  10%   4e-13  91.80  2193       GEWU01027408.1   
+TSA: Triticum aestivum tid174316_c0_seq1 transcribed RNA sequence                                 0          80.5   80.5  10%   5e-12  91.53  330        GEWU01328257.1   
+Triticum aestivum gene.319668.1.1                                                                 0          78.7   78.7  8%    2e-11  95.83  3012       GILY01047349.1   
+Triticum aestivum gene.319668.1.0                                                                 0          78.7   78.7  8%    2e-11  95.83  2870       GILY01047348.1   
+
+
+Alignments:
+
+>TSA: Triticum aestivum comp72071_c0_seq1 transcribed RNA sequence
+Sequence ID: GEUX01052893.1 Length: 990
+Range 1: 125 to 547
+
+Score:760 bits(411), Expect:0.0, 
+Identities:419/423(99%),  Gaps:0/423(0%), Strand: Plus/Minus
+
+Query  172  CTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGCGAGATGGAAGCAGGGC  231
+            ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||
+Sbjct  547  CTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGTGAGATGGAAGCAGGGC  488
+
+Query  232  TACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCACCAAGGT  291
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  487  TACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCACCAAGGT  428
+
+Query  292  GAGATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGCAGCAAGCCGGCgggggggCG  351
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  427  GAGATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGCAGCAAGCCGGCGGGGGGGCG  368
+
+Query  352  AAGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAAGGCGGC  411
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  367  AAGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAAGGCGGT  308
+
+Query  412  GAGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCG  471
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  307  GAGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCG  248
+
+Query  472  GCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCAA  531
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |
+Sbjct  247  GCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCGA  188
+
+Query  532  TTTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAGATC  591
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||
+Sbjct  187  TTTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAAATC  128
+
+Query  592  TGA  594
+            |||
+Sbjct  127  TGA  125
+
+
+
+
+>TSA: Triticum aestivum GG_127776_c0_g1_i2, transcribed RNA sequence
+Sequence ID: GKWO01458962.1 Length: 1651
+Range 1: 990 to 1417
+
+Score:747 bits(404), Expect:0.0, 
+Identities:421/429(98%),  Gaps:1/429(0%), Strand: Plus/Plus
+
+Query  166   AGCGTACTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGCGAGATGGAAG  225
+             ||| | ||||||||||||||||||||||||||||||||||||||||||| ||||||||||
+Sbjct  990   AGCATGCTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGTGAGATGGAAG  1049
+
+Query  226   CAGGGCTACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCAC  285
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1050  CAGGGCTACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCAC  1109
+
+Query  286   CAAGGTGAGATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGCAGCAAGCCGGCggg  345
+             ||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||
+Sbjct  1110  CAAGGTGAGATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGTAGCAAGCCGGC-GG  1168
+
+Query  346   ggggCGAAGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAA  405
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1169  GGGGCGAAGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAA  1228
+
+Query  406   GGCGGCGAGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGA  465
+             ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1229  GGCGGTGAGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGA  1288
+
+Query  466   GATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTC  525
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1289  GATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTC  1348
+
+Query  526   TCCCAATTTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGAT  585
+             |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1349  TCCCGATTTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGAT  1408
+
+Query  586   CAGATCTGA  594
+             || ||||||
+Sbjct  1409  CAAATCTGA  1417
+
+
+
+
+Range 2: 226 to 396
+
+Score:278 bits(150), Expect:2e-71, 
+Identities:165/172(96%),  Gaps:1/172(0%), Strand: Plus/Plus
+
+Query  1    ATGCGGGGCGACCAGCTGCGCGGCGAGGTGCCGGGTGCTGCAACCGCCTATGCGTGGAGC  60
+            |||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||||
+Sbjct  226  ATGCGGGGCGACCAGCTGCGCGGCGAGGTGTCGGGTGCTGCGACCGCCTATGCGTGGAGC  285
+
+Query  61   TGGAACCGGCACGCGGCCGTGCAGCGACCAGCACATAGCGGTACTGCTACCGACGCGGCG  120
+            | |||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |
+Sbjct  286  TAGAACCGGCACGCGGCCGTGCAGCGACCAACACATAGCGGTACTGCTACCGACGCGGTG  345
+
+Query  121  TGGCGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAGCGTAC  172
+            ||| ||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  346  TGGTGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAG-GTAC  396
+
+
+
+
+>TSA: Triticum aestivum GG_127776_c0_g1_i1, transcribed RNA sequence
+Sequence ID: GKWO01458961.1 Length: 1571
+Range 1: 916 to 1337
+
+Score:747 bits(404), Expect:0.0, 
+Identities:417/423(99%),  Gaps:1/423(0%), Strand: Plus/Plus
+
+Query  172   CTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGCGAGATGGAAGCAGGGC  231
+             ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||
+Sbjct  916   CTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGTGAGATGGAAGCAGGGC  975
+
+Query  232   TACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCACCAAGGT  291
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  976   TACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCACCAAGGT  1035
+
+Query  292   GAGATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGCAGCAAGCCGGCgggggggCG  351
+             ||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||
+Sbjct  1036  GAGATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGTAGCAAGCCGGC-GGGGGGCG  1094
+
+Query  352   AAGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAAGGCGGC  411
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1095  AAGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAAGGCGGT  1154
+
+Query  412   GAGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCG  471
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1155  GAGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCG  1214
+
+Query  472   GCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCAA  531
+             |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |
+Sbjct  1215  GCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCGA  1274
+
+Query  532   TTTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAGATC  591
+             |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||
+Sbjct  1275  TTTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAAATC  1334
+
+Query  592   TGA  594
+             |||
+Sbjct  1335  TGA  1337
+
+
+
+
+Range 2: 226 to 396
+
+Score:278 bits(150), Expect:2e-71, 
+Identities:165/172(96%),  Gaps:1/172(0%), Strand: Plus/Plus
+
+Query  1    ATGCGGGGCGACCAGCTGCGCGGCGAGGTGCCGGGTGCTGCAACCGCCTATGCGTGGAGC  60
+            |||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||||
+Sbjct  226  ATGCGGGGCGACCAGCTGCGCGGCGAGGTGTCGGGTGCTGCGACCGCCTATGCGTGGAGC  285
+
+Query  61   TGGAACCGGCACGCGGCCGTGCAGCGACCAGCACATAGCGGTACTGCTACCGACGCGGCG  120
+            | |||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |
+Sbjct  286  TAGAACCGGCACGCGGCCGTGCAGCGACCAACACATAGCGGTACTGCTACCGACGCGGTG  345
+
+Query  121  TGGCGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAGCGTAC  172
+            ||| ||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  346  TGGTGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAG-GTAC  396
+
+
+
+
+>TSA: Triticum aestivum TA_RNA_224655 transcribed RNA sequence
+Sequence ID: GAJL01218132.1 Length: 785
+Range 1: 182 to 609
+
+Score:747 bits(404), Expect:0.0, 
+Identities:421/429(98%),  Gaps:1/429(0%), Strand: Plus/Plus
+
+Query  166  AGCGTACTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGCGAGATGGAAG  225
+            ||| | ||||||||||||||||||||||||||||||||||||||||||| ||||||||||
+Sbjct  182  AGCATGCTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGTGAGATGGAAG  241
+
+Query  226  CAGGGCTACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCAC  285
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  242  CAGGGCTACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCAC  301
+
+Query  286  CAAGGTGAGATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGCAGCAAGCCGGCggg  345
+            ||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||
+Sbjct  302  CAAGGTGAGATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGTAGCAAGCCGGC-GG  360
+
+Query  346  ggggCGAAGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAA  405
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  361  GGGGCGAAGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAA  420
+
+Query  406  GGCGGCGAGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGA  465
+            ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  421  GGCGGTGAGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGA  480
+
+Query  466  GATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTC  525
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  481  GATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTC  540
+
+Query  526  TCCCAATTTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGAT  585
+            |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  541  TCCCGATTTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGAT  600
+
+Query  586  CAGATCTGA  594
+            || ||||||
+Sbjct  601  CAAATCTGA  609
+
+
+
+
+>TSA: Triticum aestivum cultivar Avocet R contig_122122, transcribed RNA sequence
+Sequence ID: GJAR01121435.1 Length: 793
+Range 1: 477 to 779
+
+Score:532 bits(288), Expect:3e-148, 
+Identities:299/304(98%),  Gaps:1/304(0%), Strand: Plus/Plus
+
+Query  174  CCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGCGAGATGGAAGCAGGGCTA  233
+            ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||
+Sbjct  477  CCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGTGAGATGGAAGCAGGGCTA  536
+
+Query  234  CTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCACCAAGGTGA  293
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  537  CTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCACCAAGGTGA  596
+
+Query  294  GATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGCAGCAAGCCGGCgggggggCGAA  353
+            ||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||
+Sbjct  597  GATGGAAGCGGGGCTGCTCGGGTCTCGGGAGCGAAGGTAGCAAGCCGGC-GGGGGGCGAA  655
+
+Query  354  GACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAAGGCGGCGA  413
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  656  GACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAAGGCGGTGA  715
+
+Query  414  GCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCGGC  473
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  716  GCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATGCGGC  775
+
+Query  474  GAGC  477
+            ||||
+Sbjct  776  GAGC  779
+
+
+
+
+Range 2: 744 to 793
+
+Score:71.3 bits(38), Expect:3e-09, 
+Identities:46/50(92%),  Gaps:0/50(0%), Strand: Plus/Plus
+
+Query  406  GGCGGCGAGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGG  455
+            || |||||||  | ||||||||||||||||||||||||||||||||||||
+Sbjct  744  GGTGGCGAGCAAGGAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGG  793
+
+
+
+
+>TSA: Triticum aestivum GG_102715_c0_g1_i1, transcribed RNA sequence
+Sequence ID: GKWO01368652.1 Length: 353
+Range 1: 1 to 242
+
+Score:448 bits(242), Expect:1e-122, 
+Identities:242/242(100%),  Gaps:0/242(0%), Strand: Plus/Plus
+
+Query  353  AGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAAGGCGGCG  412
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1    AGACGACGTGCGGGCACCGAGGCAAGATGGAAGTGGGGCTGCTCGGGAGGGAAGGCGGCG  60
+
+Query  413  AGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCGG  472
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61   AGCCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCGG  120
+
+Query  473  CGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCAAT  532
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  121  CGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCAAT  180
+
+Query  533  TTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAGATCT  592
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  TTCAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAGATCT  240
+
+Query  593  GA  594
+            ||
+Sbjct  241  GA  242
+
+
+
+
+>TSA: Triticum aestivum, transcript: NODE_128898_length_436, transcribed RNA sequence
+Sequence ID: HCED01128898.1 Length: 436
+Range 1: 201 to 380
+
+Score:322 bits(174), Expect:8e-85, 
+Identities:178/180(99%),  Gaps:0/180(0%), Strand: Plus/Minus
+
+Query  415  CCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCGGCG  474
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  380  CCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCGGCG  321
+
+Query  475  AGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCAATTT  534
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  320  AGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCGATTT  261
+
+Query  535  CAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAGATCTGA  594
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  260  CAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAAATCTGA  201
+
+
+
+
+>TSA: Triticum aestivum, transcript: NODE_128898_length_436, transcribed RNA sequence
+Sequence ID: HCEC01128898.1 Length: 436
+Range 1: 201 to 380
+
+Score:322 bits(174), Expect:8e-85, 
+Identities:178/180(99%),  Gaps:0/180(0%), Strand: Plus/Minus
+
+Query  415  CCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCGGCG  474
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  380  CCGGCAAGGGGCGGAGATGCGGCGAGCGGTGGCGAGCAAGGAAGGGGCGGAGATCCGGCG  321
+
+Query  475  AGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCAATTT  534
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  320  AGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCGTTCCTGCTCTCCCGATTT  261
+
+Query  535  CAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAGATCTGA  594
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  260  CAGATTCACGGGCAAAAGCGAAAAAGAAACAGTACAACGGGGACATTGGATCAAATCTGA  201
+
+
+
+
+>TSA: Triticum aestivum GG_102699_c0_g1_i1, transcribed RNA sequence
+Sequence ID: GKWO01368602.1 Length: 1145
+Range 1: 229 to 399
+
+Score:311 bits(168), Expect:2e-81, 
+Identities:171/172(99%),  Gaps:1/172(0%), Strand: Plus/Plus
+
+Query  1    ATGCGGGGCGACCAGCTGCGCGGCGAGGTGCCGGGTGCTGCAACCGCCTATGCGTGGAGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  229  ATGCGGGGCGACCAGCTGCGCGGCGAGGTGCCGGGTGCTGCAACCGCCTATGCGTGGAGC  288
+
+Query  61   TGGAACCGGCACGCGGCCGTGCAGCGACCAGCACATAGCGGTACTGCTACCGACGCGGCG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  289  TGGAACCGGCACGCGGCCGTGCAGCGACCAGCACATAGCGGTACTGCTACCGACGCGGCG  348
+
+Query  121  TGGCGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAGCGTAC  172
+            ||||||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  349  TGGCGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAG-GTAC  399
+
+
+
+
+Range 2: 994 to 1145
+
+Score:281 bits(152), Expect:1e-72, 
+Identities:152/152(100%),  Gaps:0/152(0%), Strand: Plus/Plus
+
+Query  166   AGCGTACTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGCGAGATGGAAG  225
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  994   AGCGTACTCCGGAGCCGACGGGGGCGGAGACGACGTGCAGGCATCGAGGCGAGATGGAAG  1053
+
+Query  226   CAGGGCTACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCAC  285
+             ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1054  CAGGGCTACTCGGGAGCGAAGGCGATGAGCCGACGGGGGGCGGAGCCCACGTGCGGGCAC  1113
+
+Query  286   CAAGGTGAGATGGAAGCGGGGCTGCTCGGGTC  317
+             ||||||||||||||||||||||||||||||||
+Sbjct  1114  CAAGGTGAGATGGAAGCGGGGCTGCTCGGGTC  1145
+
+
+
+
+>TSA: Triticum aestivum, transcript: NODE_188185_length_249, transcribed RNA sequence
+Sequence ID: HCED01188185.1 Length: 249
+Range 1: 5 to 175
+
+Score:278 bits(150), Expect:2e-71, 
+Identities:165/172(96%),  Gaps:1/172(0%), Strand: Plus/Minus
+
+Query  1    ATGCGGGGCGACCAGCTGCGCGGCGAGGTGCCGGGTGCTGCAACCGCCTATGCGTGGAGC  60
+            |||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||||
+Sbjct  175  ATGCGGGGCGACCAGCTGCGCGGCGAGGTGTCGGGTGCTGCGACCGCCTATGCGTGGAGC  116
+
+Query  61   TGGAACCGGCACGCGGCCGTGCAGCGACCAGCACATAGCGGTACTGCTACCGACGCGGCG  120
+            | |||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |
+Sbjct  115  TAGAACCGGCACGCGGCCGTGCAGCGACCAACACATAGCGGTACTGCTACCGACGCGGTG  56
+
+Query  121  TGGCGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAGCGTAC  172
+            ||| ||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  55   TGGTGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAG-GTAC  5
+
+
+
+
+>TSA: Triticum aestivum, transcript: NODE_188185_length_249, transcribed RNA sequence
+Sequence ID: HCEC01188185.1 Length: 249
+Range 1: 5 to 175
+
+Score:278 bits(150), Expect:2e-71, 
+Identities:165/172(96%),  Gaps:1/172(0%), Strand: Plus/Minus
+
+Query  1    ATGCGGGGCGACCAGCTGCGCGGCGAGGTGCCGGGTGCTGCAACCGCCTATGCGTGGAGC  60
+            |||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||||
+Sbjct  175  ATGCGGGGCGACCAGCTGCGCGGCGAGGTGTCGGGTGCTGCGACCGCCTATGCGTGGAGC  116
+
+Query  61   TGGAACCGGCACGCGGCCGTGCAGCGACCAGCACATAGCGGTACTGCTACCGACGCGGCG  120
+            | |||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |
+Sbjct  115  TAGAACCGGCACGCGGCCGTGCAGCGACCAACACATAGCGGTACTGCTACCGACGCGGTG  56
+
+Query  121  TGGCGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAGCGTAC  172
+            ||| ||||||||||||||||||||||||||||||||||||||||||| ||||
+Sbjct  55   TGGTGCTACGACCAGCGCGGCGGCGACGGCCACCGTCGGCCAAAAAG-GTAC  5
+
+
+
+
+>TSA: Triticum aestivum TA_RNA_246800 transcribed RNA sequence
+Sequence ID: GAJL01048915.1 Length: 241
+Range 1: 1 to 142
+
+Score:230 bits(124), Expect:5e-57, 
+Identities:136/142(96%),  Gaps:0/142(0%), Strand: Plus/Minus
+
+Query  1    ATGCGGGGCGACCAGCTGCGCGGCGAGGTGCCGGGTGCTGCAACCGCCTATGCGTGGAGC  60
+            |||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||||
+Sbjct  142  ATGCGGGGCGACCAGCTGCGCGGCGAGGTGTCGGGTGCTGCGACCGCCTATGCGTGGAGC  83
+
+Query  61   TGGAACCGGCACGCGGCCGTGCAGCGACCAGCACATAGCGGTACTGCTACCGACGCGGCG  120
+            | |||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |
+Sbjct  82   TAGAACCGGCACGCGGCCGTGCAGCGACCAACACATAGCGGTACTGCTACCGACGCGGTG  23
+
+Query  121  TGGCGCTACGACCAGCGCGGCG  142
+            ||| ||||||||||||||||||
+Sbjct  22   TGGTGCTACGACCAGCGCGGCG  1
+
+
+
+
+>TSA: Triticum aestivum gene.335432.0.0, transcribed RNA sequence
+Sequence ID: GILY01050747.1 Length: 2973
+Range 1: 1109 to 1168
+
+Score:84.2 bits(45), Expect:4e-13, 
+Identities:56/61(92%),  Gaps:1/61(1%), Strand: Plus/Minus
+
+Query  457   AGGGGCGGAGATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCG  516
+             |||||| ||||||||| |||||||||||||||||||||||||||||| |||| | |||||
+Sbjct  1168  AGGGGCAGAGATCCGGTGAGCTTCGACGCCGGTCATGTCGCTCGTCCGTGGC-GCTCTCG  1110
+
+Query  517   T  517
+             |
+Sbjct  1109  T  1109
+
+
+
+
+>TSA: Triticum aestivum tid48463_c0_seq2 transcribed RNA sequence
+Sequence ID: GEWU01027409.1 Length: 2103
+Range 1: 1703 to 1762
+
+Score:84.2 bits(45), Expect:4e-13, 
+Identities:56/61(92%),  Gaps:1/61(1%), Strand: Plus/Minus
+
+Query  457   AGGGGCGGAGATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCG  516
+             |||||| ||||||||| |||||||||||||||||||||||||||||| |||| | |||||
+Sbjct  1762  AGGGGCAGAGATCCGGTGAGCTTCGACGCCGGTCATGTCGCTCGTCCGTGGC-GCTCTCG  1704
+
+Query  517   T  517
+             |
+Sbjct  1703  T  1703
+
+
+
+
+>TSA: Triticum aestivum tid48463_c0_seq1 transcribed RNA sequence
+Sequence ID: GEWU01027408.1 Length: 2193
+Range 1: 1793 to 1852
+
+Score:84.2 bits(45), Expect:4e-13, 
+Identities:56/61(92%),  Gaps:1/61(1%), Strand: Plus/Minus
+
+Query  457   AGGGGCGGAGATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTCG  516
+             |||||| ||||||||| |||||||||||||||||||||||||||||| |||| | |||||
+Sbjct  1852  AGGGGCAGAGATCCGGTGAGCTTCGACGCCGGTCATGTCGCTCGTCCGTGGC-GCTCTCG  1794
+
+Query  517   T  517
+             |
+Sbjct  1793  T  1793
+
+
+
+
+>TSA: Triticum aestivum tid174316_c0_seq1 transcribed RNA sequence
+Sequence ID: GEWU01328257.1 Length: 330
+Range 1: 273 to 330
+
+Score:80.5 bits(43), Expect:5e-12, 
+Identities:54/59(92%),  Gaps:1/59(1%), Strand: Plus/Plus
+
+Query  457  AGGGGCGGAGATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGGCAGTTCTC  515
+            |||||| ||||||||| |||||||||||||||||||||||||||||| |||| | ||||
+Sbjct  273  AGGGGCAGAGATCCGGTGAGCTTCGACGCCGGTCATGTCGCTCGTCCGTGGC-GCTCTC  330
+
+
+
+
+>TSA: Triticum aestivum gene.319668.1.1, transcribed RNA sequence
+Sequence ID: GILY01047349.1 Length: 3012
+Range 1: 2416 to 2463
+
+Score:78.7 bits(42), Expect:2e-11, 
+Identities:46/48(96%),  Gaps:0/48(0%), Strand: Plus/Minus
+
+Query  460   GGCGGAGATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGG  507
+             ||| ||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  2463  GGCAGAGATCCGGCGAGCTTCGACGCCGGTCATGTCGCTTGTCCATGG  2416
+
+
+
+
+>TSA: Triticum aestivum gene.319668.1.0, transcribed RNA sequence
+Sequence ID: GILY01047348.1 Length: 2870
+Range 1: 2274 to 2321
+
+Score:78.7 bits(42), Expect:2e-11, 
+Identities:46/48(96%),  Gaps:0/48(0%), Strand: Plus/Minus
+
+Query  460   GGCGGAGATCCGGCGAGCTTCGACGCCGGTCATGTCGCTCGTCCATGG  507
+             ||| ||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  2321  GGCAGAGATCCGGCGAGCTTCGACGCCGGTCATGTCGCTTGTCCATGG  2274
+
+
+
+
+
+
+
+		
+
+

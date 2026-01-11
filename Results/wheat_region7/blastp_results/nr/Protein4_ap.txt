@@ -1,0 +1,55 @@
+RID: P707G40P014	
+Job Title:Protein4				
+Program: BLASTP 
+Database: ClusteredNR clustered nr
+Query #1: Protein4 Query ID: lcl|Query_9534986 Length: 191
+
+Clusters producing significant alignments:
+                                                                  #          #          Scientific      Cluster                    Max    Total Query   E   Per.   Acc.                        
+Cluster Rep.                                                      Mem.       Taxa       Name            Ancestor        Taxid      Score  Score cover Value Ident  Len        Accession        
+hypothetical protein CFC21_096101 [Triticum aestivum]             4          2          Triticum        monocots        4564       79.3   79.3  47%   4e-15 59.41  133        KAF7093709.1     
+hypothetical protein VPH35_103550 [Triticum aestivum]             1          1          Triticum aes... bread wheat     4565       70.5   70.5  21%   8e-12 82.93  132        XBH77003.1       
+
+
+Alignments:
+
+>hypothetical protein CFC21_096101 [Triticum aestivum]
+Sequence ID: KAF7093709.1 Length: 133
+Range 1: 32 to 132
+
+Score:79.3 bits(194), Expect:4e-15, 
+Method:Compositional matrix adjust., 
+Identities:60/101(59%), Positives:63/101(62%), Gaps:11/101(10%)
+
+Query  64   GAPHLETAVARAKGSRGGSARAARVPLALGWW-----------WKKRGKGNGSRGAVALA  112
+            GA  LE  V   KG  GG+A   R     G              KKRGKGNGSRGAVALA
+Sbjct  32   GAFTLEVLVHAGKGVSGGAASGNRRRSREGEQRSLSRAGALVDKKKRGKGNGSRGAVALA  91
+
+Query  113  AEHGGRSGLPGRCPFYLDREGADGTEEEKEEGKGGRKRTAR  153
+            A HGGRSG PGRCPF+LDR+GADGTEE KEEGK  RKR  R
+Sbjct  92   AVHGGRSGPPGRCPFFLDRDGADGTEEGKEEGKQERKRQRR  132
+
+
+
+
+>hypothetical protein VPH35_103550 [Triticum aestivum]
+Sequence ID: XBH77003.1 Length: 132
+Range 1: 75 to 115
+
+Score:70.5 bits(171), Expect:8e-12, 
+Method:Compositional matrix adjust., 
+Identities:34/41(83%), Positives:37/41(90%), Gaps:0/41(0%)
+
+Query  97   KKRGKGNGSRGAVALAAEHGGRSGLPGRCPFYLDREGADGT  137
+            KKRGKGNGS GA+ALAA HGGRSG  GRCPF+LDR+GADGT
+Sbjct  75   KKRGKGNGSLGAMALAAVHGGRSGPSGRCPFFLDRDGADGT  115
+
+
+
+
+
+
+
+		
+
+

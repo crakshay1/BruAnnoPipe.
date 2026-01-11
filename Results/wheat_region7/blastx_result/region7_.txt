@@ -1,0 +1,358 @@
+RID: P70PEPJX014	
+Job Title:region7				
+Program: BLASTX 
+Database: swissprot Non-redundant UniProtKB/SwissProt sequences
+Query #1: region7 Query ID: lcl|Query_11315060 Length: 15001
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+RecName: Full=E3 ubiquitin-protein ligase WAV3; AltName:...       Arabidopsis ... thale cress     3702       125    194   7%    4e-27 36.71  740        Q9LTA6.1         
+RecName: Full=E3 ubiquitin-protein ligase WAVH1; AltName:...      Arabidopsis ... thale cress     3702       109    170   7%    3e-22 29.34  683        Q9ZQ46.1         
+RecName: Full=Probable E3 ubiquitin-protein ligase EDA40;...      Arabidopsis ... thale cress     3702       96.3   165   7%    4e-18 31.72  739        F4JSV3.1         
+RecName: Full=Uncharacterized protein sll0103 [Synechocystis s... Synechocysti... NA              1111708    91.3   91.3  5%    3e-17 30.88  420        Q55874.1         
+RecName: Full=Inter-alpha-trypsin inhibitor heavy chain H4;...    Homo sapiens    human           9606       72.8   72.8  4%    8e-11 29.72  930        Q14624.4         
+RecName: Full=Calcium-activated chloride channel regulator 1;...  Bos taurus      domestic cattle 9913       49.7   49.7  2%    8e-04 31.78  903        P54281.1         
+RecName: Full=Calcium-activated chloride channel regulator 1;...  Equus caballus  horse           9796       48.9   48.9  4%    0.001 27.46  913        Q2TU62.1         
+RecName: Full=Probable E3 ubiquitin-protein ligase WAVH2;...      Arabidopsis ... thale cress     3702       47.8   47.8  1%    0.003 40.00  717        Q0WQX9.1         
+RecName: Full=E3 ubiquitin-protein ligase IPI1; AltName:...       Oryza sativa... Japanese rice   39947      46.6   46.6  1%    0.006 48.94  455        Q5Z8R1.1         
+RecName: Full=RING-H2 finger protein ATL18; AltName:...           Arabidopsis ... thale cress     3702       43.1   43.1  1%    0.010 43.48  145        Q9SZL4.1         
+RecName: Full=Voltage-dependent calcium channel subunit...        Homo sapiens    human           9606       45.4   45.4  2%    0.016 25.21  1137       Q7Z3S7.2         
+RecName: Full=Voltage-dependent calcium channel subunit...        Mus musculus    house mouse     10090      45.1   45.1  1%    0.024 34.78  1116       Q5RJF7.1         
+
+
+Alignments:
+
+>RecName: Full=E3 ubiquitin-protein ligase WAV3; AltName: Full=Protein WAVY GROWTH 3; AltName: Full=RING-type E3 ubiquitin transferase WAV3 [Arabidopsis thaliana]
+Sequence ID: Q9LTA6.1 Length: 740
+Range 1: 278 to 559
+
+Score:125 bits(313), Expect:4e-27, 
+Method:Compositional matrix adjust., 
+Identities:116/316(37%), Positives:164/316(51%), Gaps:44/316(13%)
+
+Query  2015  GAVVVNTHAEYSAVARDSSSDNFAVLVHVKAPAMADTVAAGSDK----PPPRAPLDLVTV  2182
+             G V V+   E + V+     +  AV + VKAP    T   G  +    P  RAP+DLV V
+Sbjct  278   GNVQVSLLPEAAVVSVGCGYETRAVALRVKAPPPL-TARGGVGRRLLDPSQRAPVDLVVV  336
+
+Query  2183  LDVSGSMSGHKLALLKQAMRFVIDNLGPNDRLSVVS-FSSEARRLTRLTRMSDAGKalav  2359
+             +DV G+M+G KL ++K+AMR VI +LG  DRLS+V+   +  +RL  L RM++ GK  A 
+Sbjct  337   VDVGGTMNGAKLQMVKRAMRLVISSLGSADRLSIVAVVMTVPKRLLPLKRMTEHGKRSAG  396
+
+Query  2360  saveslaaRGGTNIAEGLRTAAKVLDERRHRNAVSSVVLLSDGQDTYTMMRRRGPSGVQA  2539
+             + V+ L    G+N +E L+ A++VL++RR RN V+S+VLL+DGQ           S V  
+Sbjct  397   AVVDGLLCGQGSNTSEALKKASRVLEDRRERNPVASIVLLTDGQGQL--------SKVHT  448
+
+Query  2540  NNYEELVPPSFARTGADGEWSAPIHTFGFGNDHDAAAMHVIAEATGGTFSFIENEAVIQD  2719
+             N    +      R         P+   GFG              +GG      + A  ++
+Sbjct  449   NQRSTITNVGSTRF---AHIEIPVTEHGFGE-------------SGGC-----SNAPAEE  487
+
+Query  2720  AFAQCIGGLLSVVVQEARIAVACVHPG-----VRVVSVKSGRYESRVDEDGCAASVRVGE  2884
+             AFA+CIGGLLSVVVQ+ RI +  V  G     +  + + +GR        G   SVR+G+
+Sbjct  488   AFAKCIGGLLSVVVQDLRIQIR-VGSGSGPCEISAIYLCNGRPTLVSSGSG---SVRLGD  543
+
+Query  2885  LYADEERRFLLFLTVP  2932
+             LYA EER  L+ L VP
+Sbjct  544   LYAGEERELLVELRVP  559
+
+
+
+
+Range 2: 122 to 172
+
+Score:69.3 bits(168), Expect:8e-10, 
+Method:Compositional matrix adjust., 
+Identities:27/51(53%), Positives:34/51(66%), Gaps:1/51(1%)
+
+Query  1496  CAICLGGMAAGGGQATFTAECSHTFHFNCISASV-AHGHLVCPLCNARWRE  1645
+             C ICL  +  G G A +TAECSH FHF CI+  V   G LVCP+CN+ W++
+Sbjct  122   CGICLNSVKTGQGTAKYTAECSHAFHFPCIADYVRKQGKLVCPVCNSIWKD  172
+
+
+
+
+>RecName: Full=E3 ubiquitin-protein ligase WAVH1; AltName: Full=Protein WAV3 homolog 1; AltName: Full=RING-type E3 ubiquitin transferase WAVH1 [Arabidopsis thaliana]
+Sequence ID: Q9ZQ46.1 Length: 683
+Range 1: 245 to 517
+
+Score:109 bits(272), Expect:3e-22, 
+Method:Compositional matrix adjust., 
+Identities:98/334(29%), Positives:150/334(44%), Gaps:78/334(23%)
+
+Query  1982  PADSTPAAASNGAVVVNTHAEYSAVARDSSSDNFAVLVHVKAPAMADTVAAGSDKPPPRA  2161
+             P+  T    ++  V V    E + VA     + ++V++ VK+P      A G  +   R 
+Sbjct  245   PSPLTAKLLTDRNVDVKLSPESAIVASGKGYETYSVVMKVKSPPFP--TARGFAR---RV  299
+
+Query  2162  PLDLVTVLDVSGSMSGHKLALLKQAMRFVIDNLGPNDRLSVVSFSSEARRLTRLTRMSDA  2341
+             P+DLV VLDVSG  SG KL +LKQ MR V+ NL   DRLS+++FSS ++RL+ L RM+  
+Sbjct  300   PVDLVAVLDVSGRNSGGKLEMLKQTMRIVLSNLREMDRLSIIAFSSSSKRLSPLRRMTAN  359
+
+Query  2342  GKalavsaveslaaRG------------GTNIAEGLRTAAKVLDERRHRNAVSSVVLLSD  2485
+             G+  A   V+ +   G            G ++ + L+ A KVLD+RR +N  ++V +L+D
+Sbjct  360   GRRSARRIVDIITVPGSVSGVGIDFSGEGMSVNDALKKAVKVLDDRRQKNPFTAVFVLTD  419
+
+Query  2486  GQDTYTMMRRRGPSGVQANNYEELVPPSFARTGADGEWSAPIHTFGFGNDHDAAAMHVIA  2665
+                             QA+   +L                PIHT                
+Sbjct  420   R---------------QAHQVAQLAHSRI-----------PIHTIWL-------------  440
+
+Query  2666  EATGGTFSFIENEAVIQDAFAQCIGGLLSVVVQEARIAVACVHPGVRVVSVKSGRYESRV  2845
+                        + A+ +DAFA+ I G LS+ VQ+  + +  V        +  G   S  
+Sbjct  441   -----------SHAIPEDAFARTINGYLSLSVQDLGLQLGIVS------GLGQGEITSVY  483
+
+Query  2846  DEDGCAA-----SVRVGELYADEERRFLLFLTVP  2932
+                G  A     S+R+G++YA+EER  L+ +  P
+Sbjct  484   SLSGRPAWLGTGSIRLGDMYAEEERALLVEIKSP  517
+
+
+
+
+Range 2: 122 to 178
+
+Score:61.2 bits(147), Expect:2e-07, 
+Method:Compositional matrix adjust., 
+Identities:26/57(46%), Positives:34/57(59%), Gaps:3/57(5%)
+
+Query  1472  FVYA*ENPCAICLGGMAAGGGQATFTAECSHTFHFNCISASVAHGH---LVCPLCNA  1633
+             F  +  N C ICL  + +G G A FTAECSHTFHF C+++  A  H     CP+C +
+Sbjct  122   FKQSSSNKCGICLQSVKSGQGTAIFTAECSHTFHFPCVTSRAAANHNRLASCPVCGS  178
+
+
+
+
+>RecName: Full=Probable E3 ubiquitin-protein ligase EDA40; AltName: Full=Protein EMBRYO SAC DEVELOPMENT ARREST 40; AltName: Full=RING-type E3 ubiquitin transferase EDA40 [Arabidopsis thaliana]
+Sequence ID: F4JSV3.1 Length: 739
+Range 1: 315 to 573
+
+Score:96.3 bits(238), Expect:4e-18, 
+Method:Compositional matrix adjust., 
+Identities:98/309(32%), Positives:154/309(49%), Gaps:53/309(17%)
+
+Query  2015  GAVVVNTHAEYSAVARDSSSDNFAVLVHVKAPAMADTVAAGSDKPPPRAPLDLVTVLDVS  2194
+             G V V   +E + VA    ++ ++VL+ +K+P++             R+P+DLVTV+DVS
+Sbjct  315   GHVDVKLSSEAAIVAVGRGNETYSVLMKIKSPSLPTA---------RRSPVDLVTVIDVS  365
+
+Query  2195  GSMSGHKLALLKQAMRFVIDNLGPNDRLSVVSFSSEARRLTRLTRMSDAGKalavsaves  2374
+             G      + ++K+AMR VI +L   DRLS+VSFSS ++RLT L RM+  G+ LA   V+ 
+Sbjct  366   GG----NIEMVKRAMRQVISSLRETDRLSMVSFSSSSKRLTPLRRMTANGRRLARRIVDD  421
+
+Query  2375  laaRG-GTNIAEGLRTAAKVLDERRHRNAVSSVVLLSDGQDTYTMMRRRGPSGVQANNYE  2551
+             ++  G G ++ + ++ AAKV+++RR +N  +++ +L+D         R   S  QA    
+Sbjct  422   ISGDGDGMSVNDAVKKAAKVIEDRRQKNLFTTIFVLTD---------RNRNSAHQA----  468
+
+Query  2552  ELVPPSFARTGADGEWSAPIHTFGFGNDHDAAAMHVIAEATGGTFSFIENEAVIQDAFAQ  2731
+             +L  P F  +        P HT   G     A  H + E                D FA+
+Sbjct  469   QLAQPDFVTSTRFSHLEIPTHTIWLG-----ACNHALPE----------------DVFAK  507
+
+Query  2732  CIGGLLSVVVQEARIAVACVHPG--VRVVSVKSGRYESRVDEDGCAASVRVGELYADEER  2905
+              I  LLS+ VQ+  + +  V      +V SV S     R    G +  +R+G++Y DEER
+Sbjct  508   RIKSLLSLSVQDLTLNLGLVSGSGQGKVTSVYS--LSGRPVWLG-SGLIRLGDMYGDEER  564
+
+Query  2906  RFLLFLTVP  2932
+               L+ L  P
+Sbjct  565   EVLVELKSP  573
+
+
+
+
+Range 2: 169 to 220
+
+Score:68.9 bits(167), Expect:1e-09, 
+Method:Compositional matrix adjust., 
+Identities:28/52(54%), Positives:34/52(65%), Gaps:2/52(3%)
+
+Query  1496  CAICLGGMAAGGGQATFTAECSHTFHFNCISASVAHGHLV--CPLCNARWRE  1645
+             C ICL    AG G A FTAECSHTFHF C+++     +L+  CP+C A WRE
+Sbjct  169   CGICLQSAKAGRGTAIFTAECSHTFHFPCVASRAGDRNLLSDCPVCGASWRE  220
+
+
+
+
+>RecName: Full=Uncharacterized protein sll0103 [Synechocystis sp. PCC 6803 substr. Kazusa]
+Sequence ID: Q55874.1 Length: 420
+Range 1: 29 to 273
+
+Score:91.3 bits(225), Expect:3e-17, 
+Method:Compositional matrix adjust., 
+Identities:84/272(31%), Positives:125/272(45%), Gaps:39/272(14%)
+
+Query  2126  VAAGSDKPPPRAPLDLVTVLDVSGSMSGHKLALLKQAMRFVIDNLGPNDRLSVVSFSSEA  2305
+             VAA +D    R PL+L  VLD SGSM G  L  +K A   +ID L  +DRLSV++F   A
+Sbjct  29    VAAKADDHDRRLPLNLCLVLDHSGSMDGQPLETVKSAALGLIDRLEEDDRLSVIAFDHRA  88
+
+Query  2306  RRLTRLTRMSDAGKalavsaveslaaRGGTNIAEGLRT----AAKVLDERRHRNAVSSVV  2473
+             + +    ++ +        A+E L A GGT I EGL+     AAK  ++R     VS + 
+Sbjct  89    KIVIENQQVRNGA--AIAKAIERLKAEGGTAIDEGLKLGIQEAAKGKEDR-----VSHIF  141
+
+Query  2474  LLSDGQDTYTMMRRRGPSGVQANNYEELVPPSFARTGADGEWSAPIHTFGFGNDHDAAAM  2653
+             LL+DG++ +    R    G  A++Y+                   +HT GFG+  +   +
+Sbjct  142   LLTDGENEHGDNDRCLKLGTVASDYK-----------------LTVHTLGFGDHWNQDVL  184
+
+Query  2654  HVIAEATGGTFSFIENEAVIQDAFAQCIGGLLSVVVQEARIA--------VACVHPGVRV  2809
+               IA +  G+ S+IEN +     F Q    + +V +  A +         +A V P   V
+Sbjct  185   EAIAASAQGSLSYIENPSEALHTFRQLFQRMSNVGLTNAHLLLELAPQAHLAIVKP---V  241
+
+Query  2810  VSVKSGRYESRVDEDGCAASVRVGELYADEER  2905
+               V     +  V   G    VR+G+L  D+ER
+Sbjct  242   AQVSPETMDLTVQNQGAIEEVRLGDLMTDQER  273
+
+
+
+
+>RecName: Full=Inter-alpha-trypsin inhibitor heavy chain H4; Short=ITI heavy chain H4; Short=ITI-HC4; Short=Inter-alpha-inhibitor heavy chain 4; AltName: Full=Inter-alpha-trypsin inhibitor family heavy chain-related protein; Short=IHRP; AltName: Full=Plasma kallikrein sensitive glycoprotein 120; Short=Gp120; Short=PK-120; Contains: RecName: Full=70 kDa inter-alpha-trypsin inhibitor heavy chain H4; Contains: RecName: Full=35 kDa inter-alpha-trypsin inhibitor heavy chain H4; Flags: Precursor [Homo sapiens]
+Sequence ID: Q14624.4 Length: 930
+Range 1: 272 to 468
+
+Score:72.8 bits(177), Expect:8e-11, 
+Method:Compositional matrix adjust., 
+Identities:63/212(30%), Positives:100/212(47%), Gaps:25/212(11%)
+
+Query  2162  PLDLVTVLDVSGSMSGHKLALLKQAMRFVIDNLGPNDRLSVVSFSSEARRL-TRLTRMSD  2338
+             P ++V V+D SGSMSG K+   ++A+  ++D+L P D+ +++ FS+EA +    L   S 
+Sbjct  272   PKNVVFVIDKSGSMSGRKIQQTREALIKILDDLSPRDQFNLIVFSTEATQWRPSLVPASA  331
+
+Query  2339  AGKalavsaveslaaRGGTNIAEGLRTAAKVLD-----ERRHRNAVSSVVLLSDGQDTYT  2503
+                  A S    + A GGTNI + +  A ++LD     ER    +VS ++LL+DG  T  
+Sbjct  332   ENVNKARSFAAGIQALGGTNINDAMLMAVQLLDSSNQEERLPEGSVSLIILLTDGDPT--  389
+
+Query  2504  MMRRRGPSGVQANNYEELVPPSFARTGADGEWSAPIHTFGFGNDHDAAAMHVIAEATGGT  2683
+              +    P  +Q N           R    G +S  +   GFG D   A +  +A   GG 
+Sbjct  390   -VGETNPRSIQNN----------VREAVSGRYS--LFCLGFGFDVSYAFLEKLALDNGGL  436
+
+Query  2684  FSFIENEA----VIQDAFAQCIGGLLSVVVQE  2767
+                I  ++     +QD + +    LL+ V  E
+Sbjct  437   ARRIHEDSDSALQLQDFYQEVANPLLTAVTFE  468
+
+
+
+
+>RecName: Full=Calcium-activated chloride channel regulator 1; AltName: Full=Calcium-activated chloride channel; AltName: Full=Epithelial chloride channel protein; Flags: Precursor [Bos taurus]
+Sequence ID: P54281.1 Length: 903
+Range 1: 312 to 418
+
+Score:49.7 bits(117), Expect:8e-04, 
+Method:Compositional matrix adjust., 
+Identities:34/107(32%), Positives:57/107(53%), Gaps:2/107(1%)
+
+Query  2180  VLDVSGSMSGH-KLALLKQAMR-FVIDNLGPNDRLSVVSFSSEARRLTRLTRMSDAGKal  2353
+             VLD SGSMS   +L  + QA   F+I  +     + +V+F S A     LT+++D     
+Sbjct  312   VLDKSGSMSSEDRLFRMNQAAELFLIQIIEKGSLVGMVTFDSVAEIRNNLTKITDDNVYE  371
+
+Query  2354  avsaveslaaRGGTNIAEGLRTAAKVLDERRHRNAVSSVVLLSDGQD  2494
+              ++A     A GGT+I  GL+   + + + +   + S ++LL+DG+D
+Sbjct  372   NITANLPQEANGGTSICRGLKAGFQAIIQSQQSTSGSEIILLTDGED  418
+
+
+
+
+>RecName: Full=Calcium-activated chloride channel regulator 1; AltName: Full=Calcium-activated chloride channel family member 1; Short=eCLCA1; Flags: Precursor [Equus caballus]
+Sequence ID: Q2TU62.1 Length: 913
+Range 1: 310 to 478
+
+Score:48.9 bits(115), Expect:0.001, 
+Method:Compositional matrix adjust., 
+Identities:53/193(27%), Positives:87/193(45%), Gaps:29/193(15%)
+
+Query  2180  VLDVSGSMS-GHKLALLKQAMR-FVIDNLGPNDRLSVVSFSSEARRLTRLTRMSDAGKal  2353
+             VLD SGSM+ G +L  L QA + F++  +     + +V+F S A   + L ++       
+Sbjct  310   VLDKSGSMAIGDRLKRLTQAGKLFLLQTVEQGSWVGMVTFDSAAYVQSALRQIKGGTDRD  369
+
+Query  2354  avsaveslaaRGGTNIAEGLRTAAKVLDERRHRNAVSSVVLLSDGQDTYTMMRRRGPSGV  2533
+             A++      A GGT+I  GLR+A  V+  ++++   S +VLL+DG+D             
+Sbjct  370   ALTKSLPTVASGGTSICSGLRSAFTVI-RKKYKTDGSEIVLLTDGED-------------  415
+
+Query  2534  QANNYEELVPPSFARTGADGEWSAPIHTFGFGNDHDAAAMHVIAEATGGTFSFIENEAV-  2710
+                     +   F      G   A IHT   G    AA +  +++ TGG  ++  ++A  
+Sbjct  416   ------NTISSCFNEVKQSG---AIIHTVALGPSA-AAELEELSKMTGGLQTYASDQAQN  465
+
+Query  2711  --IQDAFAQCIGG  2743
+               + DAF     G
+Sbjct  466   NGLIDAFGALSSG  478
+
+
+
+
+>RecName: Full=Probable E3 ubiquitin-protein ligase WAVH2; AltName: Full=Protein WAV3 homolog 2; AltName: Full=RING-type E3 ubiquitin transferase WAVH2 [Arabidopsis thaliana]
+Sequence ID: Q0WQX9.1 Length: 717
+Range 1: 140 to 191
+
+Score:47.8 bits(112), Expect:0.003, 
+Method:Compositional matrix adjust., 
+Identities:22/55(40%), Positives:30/55(54%), Gaps:6/55(10%)
+
+Query  1496  CAICLGGMAAGGGQAT---FTAECSHTFHFNCISASVAHGHLVCPLCNARWRELP  1651
+             CAICL  + +    +T   FTAECSH+FH +C++         CP C+A W   P
+Sbjct  140   CAICLQRVNSNQSNSTAAIFTAECSHSFHLSCVNGLEDKR---CPFCSAAWNHAP  191
+
+
+
+
+>RecName: Full=E3 ubiquitin-protein ligase IPI1; AltName: Full=IPA1-interacting protein 1 [Oryza sativa Japonica Group]
+Sequence ID: Q5Z8R1.1 Length: 455
+Range 1: 50 to 96
+
+Score:46.6 bits(109), Expect:0.006, 
+Method:Compositional matrix adjust., 
+Identities:23/47(49%), Positives:30/47(63%), Gaps:2/47(4%)
+
+Query  1493  PCAICLGGMAAGGG-QATFTAECSHTFHFNCI-SASVAHGHLVCPLC  1627
+             PC+ICL  + AGGG ++T   +C H FH +CI SA  A G + CP C
+Sbjct  50    PCSICLDAVVAGGGDRSTARLQCGHEFHLDCIGSAFNAKGVMQCPNC  96
+
+
+
+
+>RecName: Full=RING-H2 finger protein ATL18; AltName: Full=RING-type E3 ubiquitin transferase ATL18; Flags: Precursor [Arabidopsis thaliana]
+Sequence ID: Q9SZL4.1 Length: 145
+Range 1: 62 to 106
+
+Score:43.1 bits(100), Expect:0.010, 
+Method:Composition-based stats., 
+Identities:20/46(43%), Positives:23/46(50%), Gaps:1/46(2%)
+
+Query  1496  CAICLGGMAAGGGQATFTAECSHTFHFNCISASVAHGHLVCPLCNA  1633
+             C ICL    A     T    C+H FH NCI   +  GHL CPLC +
+Sbjct  62    CPICLVEFEAEDA-VTHLPRCAHLFHINCIEPWLLRGHLTCPLCRS  106
+
+
+
+
+>RecName: Full=Voltage-dependent calcium channel subunit alpha-2/delta-4; AltName: Full=Voltage-gated calcium channel subunit alpha-2/delta-4; Contains: RecName: Full=Voltage-dependent calcium channel subunit alpha-2-4; Contains: RecName: Full=Voltage-dependent calcium channel subunit delta-4; Flags: Precursor [Homo sapiens]
+Sequence ID: Q7Z3S7.2 Length: 1137
+Range 1: 288 to 406
+
+Score:45.4 bits(106), Expect:0.016, 
+Method:Compositional matrix adjust., 
+Identities:30/119(25%), Positives:61/119(51%), Gaps:9/119(7%)
+
+Query  2159  APLDLVTVLDVSGSMSGHKLALLKQAMRFVIDNLGPNDRLSVVSFSSEARRLT-----RL  2323
+             +P D+V ++DVSGSM G ++ + K  +  ++D LG ND +++++++     +       L
+Sbjct  288   SPKDIVILVDVSGSMKGLRMTIAKHTITTILDTLGENDFINIIAYNDYVHYIEPCFKGIL  347
+
+Query  2324  TRMSDAGKalavsaveslaaRGGTNIAEGLRTAAKVLDERRHRNAVS----SVVLLSDG  2488
+              +     +      VE L  +G   + + LR A ++L + +     S    +++L+SDG
+Sbjct  348   VQADRDNREHFKLLVEELMVKGVGVVDQALREAFQILKQFQEAKQGSLCNQAIMLISDG  406
+
+
+
+
+>RecName: Full=Voltage-dependent calcium channel subunit alpha-2/delta-4; AltName: Full=Voltage-gated calcium channel subunit alpha-2/delta-4; Contains: RecName: Full=Voltage-dependent calcium channel subunit alpha-2-4; Contains: RecName: Full=Voltage-dependent calcium channel subunit delta-4; Flags: Precursor [Mus musculus]
+Sequence ID: Q5RJF7.1 Length: 1116
+Range 1: 267 to 312
+
+Score:45.1 bits(105), Expect:0.024, 
+Method:Compositional matrix adjust., 
+Identities:16/46(35%), Positives:34/46(73%), Gaps:0/46(0%)
+
+Query  2159  APLDLVTVLDVSGSMSGHKLALLKQAMRFVIDNLGPNDRLSVVSFS  2296
+             +P D+V ++D+SGSM G ++A+ K  +  ++D LG ND +++++++
+Sbjct  267   SPKDIVILVDISGSMKGLRMAIAKHTITTILDTLGENDFVNIIAYN  312
+
+
+
+
+
+
+
+		
+
+

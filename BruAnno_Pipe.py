@@ -192,8 +192,10 @@ def augustus(masked: bool):
     if masked :
         os.system(f"augustus --species={c_s} --codingseq=on --exonnames=on {file_name}_masked.fasta > augustus_pred_masked/augustus_result.txt")
         folder = "augustus_pred_masked"
+        os.system('grep -v "^#" augustus_pred_masked/augustus_result.txt > augustus_pred_masked/augustus_result.gff3')
     else:
         os.system(f"augustus --species={c_s} --codingseq=on --exonnames=on {sequence} > augustus_pred/augustus_result.txt")
+        os.system('grep -v "^#" augustus_pred/augustus_result.txt > augustus_pred/augustus_result.gff3')
 
     # Extracting every predicted proteins, predicted CDS and predicted genes
     with open(f"{folder}/augustus_result.txt", 'r', encoding='utf-8') as res:
@@ -411,7 +413,7 @@ def download(dr, file, destination, suffix):
         rid = dr.find_element(By.CSS_SELECTOR, "a[title='BLAST search request ID']").text
         dr.set_page_load_timeout(5)
         try:
-            dr.get(f"https://blast.ncbi.nlm.nih.gov/Blast.cgi?RESULTS_FILE=on&RID={rid}&FORMAT_TYPE=Text&FORMAT_OBJECT=Alignment& \
+            dr.get(f"https://blast.ncbi.nlm.nih.gov/Blast.cgi?RESULTS_FILE=on&RID={rid}&FORMAT_TYPE=SAM_SQ&FORMAT_OBJECT=Alignment& \
                DESCRIPTIONS=100&ALIGNMENTS=100&CMD=Get&DOWNLOAD_TEMPL=Results_All&ADV_VIEW=on")
         except:
             download_dir = "/home/crakshay/Téléchargements"

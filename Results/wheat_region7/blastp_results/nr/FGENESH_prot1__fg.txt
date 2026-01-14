@@ -1,0 +1,91 @@
+RID: PFMFNDCU014	
+Job Title:FGENESH: 2 3 exon (s) 11411 - 12486 277				
+Program: BLASTP 
+Database: ClusteredNR clustered nr
+Query #1: FGENESH: 2 3 exon (s) 11411 - 12486 277 aa, chain + Query ID: lcl|Query_3509936 Length: 277
+
+Clusters producing significant alignments:
+                                                                  #          #          Scientific      Cluster                    Max    Total Query   E   Per.   Acc.                        
+Cluster Rep.                                                      Mem.       Taxa       Name            Ancestor        Taxid      Score  Score cover Value Ident  Len        Accession        
+hypothetical protein CFC21_096101 [Triticum aestivum]             4          2          Triticum        monocots        4564       78.6   78.6  32%   5e-14 59.41  133        KAF7093709.1     
+hypothetical protein VPH35_103550 [Triticum aestivum]             1          1          Triticum aes... bread wheat     4565       70.9   70.9  15%   3e-11 82.93  132        XBH77003.1       
+hypothetical protein VPH35_058180 [Triticum aestivum]             27         3          Triticinae      monocots        1648030    65.5   65.5  11%   5e-08 90.32  381        XBI15827.1       
+hypothetical protein HU200_040924 [Digitaria exilis]              1          1          Digitaria ex... monocots        1010633    48.1   48.1  20%   0.029 40.23  373        KAF8690560.1     
+
+
+Alignments:
+
+>hypothetical protein CFC21_096101 [Triticum aestivum]
+Sequence ID: KAF7093709.1 Length: 133
+Range 1: 32 to 132
+
+Score:78.6 bits(192), Expect:5e-14, 
+Method:Compositional matrix adjust., 
+Identities:60/101(59%), Positives:63/101(62%), Gaps:11/101(10%)
+
+Query  150  GAPHLETAVARAKGSRGGSARAARVPLALGWW-----------WKKRGKGNGSRGAVALA  198
+            GA  LE  V   KG  GG+A   R     G              KKRGKGNGSRGAVALA
+Sbjct  32   GAFTLEVLVHAGKGVSGGAASGNRRRSREGEQRSLSRAGALVDKKKRGKGNGSRGAVALA  91
+
+Query  199  AEHGGRSGLPGRCPFYLDREGADGTEEEKEEGKGGRKRTAR  239
+            A HGGRSG PGRCPF+LDR+GADGTEE KEEGK  RKR  R
+Sbjct  92   AVHGGRSGPPGRCPFFLDRDGADGTEEGKEEGKQERKRQRR  132
+
+
+
+
+>hypothetical protein VPH35_103550 [Triticum aestivum]
+Sequence ID: XBH77003.1 Length: 132
+Range 1: 75 to 115
+
+Score:70.9 bits(172), Expect:3e-11, 
+Method:Compositional matrix adjust., 
+Identities:34/41(83%), Positives:37/41(90%), Gaps:0/41(0%)
+
+Query  183  KKRGKGNGSRGAVALAAEHGGRSGLPGRCPFYLDREGADGT  223
+            KKRGKGNGS GA+ALAA HGGRSG  GRCPF+LDR+GADGT
+Sbjct  75   KKRGKGNGSLGAMALAAVHGGRSGPSGRCPFFLDRDGADGT  115
+
+
+
+
+>hypothetical protein VPH35_058180 [Triticum aestivum]
+Sequence ID: XBI15827.1 Length: 381
+Range 1: 1 to 31
+
+Score:65.5 bits(158), Expect:5e-08, 
+Method:Compositional matrix adjust., 
+Identities:28/31(90%), Positives:29/31(93%), Gaps:0/31(0%)
+
+Query  38  MHFTVDLYTDRRCPGAVLHRRTSNGRNAKKR  68
+           MHFTVDLYTDRRCP AVLHRRTSNGRNAK +
+Sbjct  1   MHFTVDLYTDRRCPCAVLHRRTSNGRNAKAK  31
+
+
+
+
+>hypothetical protein HU200_040924 [Digitaria exilis]
+Sequence ID: KAF8690560.1 Length: 373
+Range 1: 89 to 175
+
+Score:48.1 bits(113), Expect:0.029, 
+Method:Compositional matrix adjust., 
+Identities:35/87(40%), Positives:40/87(45%), Gaps:31/87(35%)
+
+Query  9    LDPRPDRGRP--------AQARLRE------------ALKRWEAPPLPLMHFTVD-----  43
+            LD RPDRGRP        + A  RE             L+R EAPPLP   F        
+Sbjct  89   LDLRPDRGRPTLMVGGPLSSALYREGVGATARNTKGLVLRRREAPPLPSSPFPAKAGGVL  148
+
+Query  44   ------LYTDRRCPGAVLHRRTSNGRN  64
+                  +Y+DRRCP A LH+RT NG N
+Sbjct  149  KSHGYIIYSDRRCPSADLHQRTRNGIN  175
+
+
+
+
+
+
+
+		
+
+

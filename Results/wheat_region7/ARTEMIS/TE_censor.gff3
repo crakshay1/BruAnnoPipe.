@@ -1,0 +1,17 @@
+##gff-version 3
+region7	CENSOR	transposable_element	72	567	108	-	.	ID=TE1;Name=L1-384_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	700	802	246	-	.	ID=TE2;Name=Mariner-N8_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	2392	2472	70	-	.	ID=TE3;Name=L1-N6_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	3826	4008	478	+	.	ID=TE4;Name=MuDR-N38_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	5443	5557	74	-	.	ID=TE5;Name=MuDR-92_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	5658	5740	92	-	.	ID=TE6;Name=MuDR-84_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	6358	6416	76	+	.	ID=TE7;Name=MuDR-39_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	6424	6520	234	+	.	ID=TE8;Name=Mariner-N10_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	6651	6720	154	+	.	ID=TE9;Name=EnSpm-24c_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	6918	7095	446	+	.	ID=TE10;Name=Mariner-N10_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	8135	8576	138	+	.	ID=TE11;Name=MuDR-N69_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	8697	8853	270	-	.	ID=TE12;Name=EnSpm-5h3_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	9798	10558	978	+	.	ID=TE13;Name=MuDR-59N1_TAe;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	11389	11650	272	+	.	ID=TE14;Name=Copia-82_TAe-LTR;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	11844	13112	1082	+	.	ID=TE15;Name=Copia-82_TAe-I;Class=Interspersed_Repeat
+region7	CENSOR	transposable_element	14634	14995	322	+	.	ID=TE16;Name=Copia-82_TAe-I;Class=Interspersed_Repeat
